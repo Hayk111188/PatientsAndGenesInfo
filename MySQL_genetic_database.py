@@ -16,7 +16,7 @@ cursor.execute("CREATE DATABASE IF NOT EXISTS GenesDb",multi=True)
      
 # Loading json data
 json_path = "C://Python projects//MySQL genetic database//benchling_entries.json"
-f = open(json_path);
+f = open(json_path)
 data = json.load(f)      
 f.close()
     
