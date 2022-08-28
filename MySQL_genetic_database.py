@@ -15,7 +15,8 @@ cursor = mydb.cursor()
 cursor.execute("CREATE DATABASE IF NOT EXISTS GenesDb",multi=True) 
      
 # Loading json data
-f = open("C://Python projects//MySQL genetic database//benchling_entries.json");
+json_path = "C://Python projects//MySQL genetic database//benchling_entries.json"
+f = open(json_path);
 data = json.load(f)      
 f.close()
     
@@ -61,7 +62,8 @@ cursor = mydb.cursor()
 cursor.execute(query,multi=True)
 
 # Reading data from text file and inserting data: PatientId/CopyNumber/Symbol
-with open('C://Python projects//MySQL genetic database//cnv_processed.txt', newline = '') as patients:     
+txt_path = 'C://Python projects//MySQL genetic database//cnv_processed.txt'
+with open(txt_path, newline = '') as patients:     
      reader = csv.reader(patients, delimiter='\t')
      for patient in reader:
           if patient[17]=="Patient_ID":
