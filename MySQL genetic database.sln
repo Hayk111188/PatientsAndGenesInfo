@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MySQL genetic database", "MySQL genetic database\MySQL genetic database.pyproj", "{25688E85-E0B2-409B-99B4-E9270D2A972C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25688E85-E0B2-409B-99B4-E9270D2A972C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25688E85-E0B2-409B-99B4-E9270D2A972C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8487F693-827D-45C6-A211-4433FD1123AD}
+	EndGlobalSection
+EndGlobal
